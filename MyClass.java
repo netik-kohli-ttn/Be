@@ -32,7 +32,7 @@ class Producer extends Thread {
             data.produce(i);
         }
     }
-}
+  }
 
 class Consumer extends Thread {
     SharedData data;
